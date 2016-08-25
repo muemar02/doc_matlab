@@ -1,0 +1,14 @@
+Suche nach Ausruck
+\[(\d)\] (Inhalt steht in runden Klammern)
+Ersetzen mit
+__||$1 Ausdruck der gefunden wurde kann durch $1 referenziert werden 
+
+Suche
+\[i\]
+Ersetzen mit
+__||i
+
+
+In diesem Beispiel wird z. B. aus 
+G[1] -> G__||1
+G[2] -> G__||2
