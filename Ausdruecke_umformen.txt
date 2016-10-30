@@ -12,3 +12,11 @@ __||i
 In diesem Beispiel wird z. B. aus 
 G[1] -> G__||1
 G[2] -> G__||2
+
+Suche Nach:
+Buchstabenkette bel. Laenge,__,Zahl
+([a-zA-Z]+__)(\d)
+
+Ersetze durch
+( ,Buchstabenkette bel. Laenge,__,Zahl, )(t)
+\(($1)$2\)\(0\)
